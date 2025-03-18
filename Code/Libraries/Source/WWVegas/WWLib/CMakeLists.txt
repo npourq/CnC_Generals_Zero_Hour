@@ -57,7 +57,7 @@ add_library(wwlib STATIC
     strtok_r.cpp
     systimer.cpp
     tagblock.cpp
-    TARGA.cpp
+    TARGA.CPP
     textfile.cpp
     thread.cpp
     trim.cpp

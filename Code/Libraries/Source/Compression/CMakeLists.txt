@@ -17,22 +17,22 @@ add_library(Compression STATIC
     LZHCompress/CompLibSource/Lzhl_tcp.cpp
     LZHCompress/NoxCompress.cpp
 
-    # ZLib
-    ZLib/adler32.c
-    ZLib/compress.c
-    ZLib/crc32.c
-    ZLib/deflate.c
-    ZLib/gzio.c
-    ZLib/infblock.c
-    ZLib/infcodes.c
-    ZLib/inffast.c
-    ZLib/inflate.c
-    ZLib/inftrees.c
-    ZLib/infutil.c
-    ZLib/maketree.c
-    ZLib/trees.c
-    ZLib/uncompr.c
-    ZLib/zutil.c
+    # Zlib
+    Zlib/adler32.c
+    Zlib/compress.c
+    Zlib/crc32.c
+    Zlib/deflate.c
+    Zlib/gzio.c
+    Zlib/infblock.c
+    Zlib/infcodes.c
+    Zlib/inffast.c
+    Zlib/inflate.c
+    Zlib/inftrees.c
+    Zlib/infutil.c
+    Zlib/maketree.c
+    Zlib/trees.c
+    Zlib/uncompr.c
+    Zlib/zutil.c
 
     # Top-level
     CompressionManager.cpp

@@ -1,8 +1,8 @@
 add_library(GameEngine STATIC
-    source/Console/Console.cpp
-    source/Console/Cvar.cpp
-    source/Console/CvarManager.cpp
-    source/Console/ConsoleCommandManager.cpp
+    Source/Console/Console.cpp
+    Source/Console/Cvar.cpp
+    Source/Console/CvarManager.cpp
+    Source/Console/ConsoleCommandManager.cpp
     Source/Common/Audio/AudioEventRTS.cpp
     Source/Common/Audio/AudioRequest.cpp
     Source/Common/Audio/GameAudio.cpp

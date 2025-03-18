@@ -116,7 +116,7 @@ add_subdirectory(GameEngineDevice)
 add_subdirectory(GameRenderer)
 add_subdirectory(Tools/WorldBuilder)
 add_subdirectory(Libraries/Source/Compression)
-add_subdirectory(Libraries/Source/WWVegas/ww3d2)
+add_subdirectory(Libraries/Source/WWVegas/WW3D2)
 add_subdirectory(Libraries/Source/WWVegas/WWDebug)
 add_subdirectory(Libraries/Source/WWVegas/WWDownload)
 add_subdirectory(Libraries/Source/WWVegas/WWLib)
@@ -154,7 +154,7 @@ add_executable(RTS WIN32
     Libraries/Bink/include/cleanup.c
     Libraries/Bink/include/miles.c
     Main/WinMain.cpp
-    Main/RTS.rc
+    Main/RTS.RC
 
     # (Optional) If you want to see these headers in the project tree:
     # Main/resource.h

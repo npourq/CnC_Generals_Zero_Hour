@@ -1,6 +1,6 @@
 add_library(WWDownload STATIC
     Download.cpp
-    Ftp.cpp
+    FTP.CPP
     registry.cpp
     urlBuilder.cpp
 
