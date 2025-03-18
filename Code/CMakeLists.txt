@@ -115,6 +115,8 @@ add_subdirectory(GameEngine)
 add_subdirectory(GameEngineDevice)
 add_subdirectory(GameRenderer)
 add_subdirectory(Tools/WorldBuilder)
+add_subdirectory(Tools/DebugWindow)
+add_subdirectory(Tools/ParticleEditor)
 add_subdirectory(Libraries/Source/Compression)
 add_subdirectory(Libraries/Source/WWVegas/WW3D2)
 add_subdirectory(Libraries/Source/WWVegas/WWDebug)
@@ -230,7 +232,8 @@ target_link_libraries(RTS PRIVATE
     wsock32
     imm32
     wininet
-
+    DebugWindow
+    ParticleEditor
     GameEngine
 )
 
